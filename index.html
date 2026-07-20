@@ -52,7 +52,7 @@
                 </div>
                 <div>
                     <img src="images/banner.png" class="max-w-sm" />
-                    <div class="-mt-20 -ml-12 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-64 rounded-lg">
+                    <div class="-mt-20 lg:-ml-12 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-64 rounded-lg">
                         <i class="fa-solid fa-star text-4xl text-amber-400"></i>
                         <div>
                             <h3 class="text-3xl font-extrabold">5.00</h3>
@@ -68,7 +68,7 @@
     <main class="container mx-auto">
 
         <!-- Feature section -->
-        <section class="text-center py-24">
+        <section class="text-center px-4 lg:px-0 py-12 lg:py-24">
             <h2 class="text-3xl lg:text-5xl font-extrabold text-primary">Our Featured Products</h2>
             <p class="text-secondary w-full md:w-2/3 mx-auto mt-5">There are many variations of passages of Lorem Ipsum
                 available, but the majority have suffered alteration in some form, by injected humour, or randomised
@@ -122,7 +122,7 @@
         </section>
 
         <!-- Great Tea -->
-        <section class="py-24 flex flex-col lg:flex-row gap-12">
+        <section class="px-4 py-12 lg:px-0 lg:py-24 flex flex-col lg:flex-row gap-12">
             <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1">
                 <div class="rounded-lg bg-linear-to-r from-[#FF0000] to-[#FF8938] h-36 opacity-10"></div>
                 <div class="row-span-2 rounded-lg bg-[#E6A6231A] px-8 py-10 flex justify-center items-center">
@@ -144,29 +144,67 @@
                 <p class="text-secondary lg:w-3/4">A Unique and different style from other teapots gives a luxurious and
                     minimalist impression</p>
                 <h4 class="text-xl font-extrabold text-primary mt-5">Premium Quality</h4>
-                <p class="text-secondary lg:w-3/4">Premium Quality that makes tea more elegant and more durable when you use it.
+                <p class="text-secondary lg:w-3/4">Premium Quality that makes tea more elegant and more durable when you
+                    use it.
                 </p>
 
             </div>
         </section>
 
         <!-- Super client -->
-         <section class="p-24 flex bg-linear-[-90deg] from-gradient-start to-gradient-end rounded-xl gap-9">
-            <div class="flex-1">
-                <h3 class="text-3xl lg:text-5xl font-extrabold text-white mb-5">Meet Our Super<br>Clients</h3>
-                <p class="text-white mb-8 lg:w-4/5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-                <button class="btn bg-white p-5 border-0 text-linear-[-90deg] from-gradient-start to-gradient-end text-sm font-semibold">Show All</button>
+        <section class="px-10 py-16 lg:p-24 flex flex-col lg:flex-row bg-linear-[-90deg] from-gradient-start to-gradient-end rounded-xl gap-9">
+            <div class="flex flex-1 items-center">
+                <div class="">
+                    <h3 class="text-3xl lg:text-5xl font-extrabold text-white mb-5">Meet Our Super<br>Clients</h3>
+                    <p class="text-white mb-8 lg:w-4/5">There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form, by injected humour, or randomised words
+                        which don't look even slightly believable. </p>
+                    <button
+                        class="btn bg-white p-5 border-0 text-linear-[-90deg] from-gradient-start to-gradient-end text-sm font-semibold">Show
+                        All</button>
+                </div>
             </div>
-            <div class="flex-1">
+            <div class="flex-1 relative">
                 <!-- Review -->
-                 <div class="relative p-10 bg-white rounded-lg w-4/5">
-                    <img class="absolute -left-5 -top-5" src="images/client.png" alt="">
-                    <p class="text-secondary">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <div class="relative p-10 bg-white rounded-lg lg:w-4/5 opacity-40 mb-16">
+                    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p class="text-secondary">We are providing the best and suitable home insurance services for the
+                        people who are interested to treatment</p>
                     <h4 class="font-bold text-primary mt-4">Ilham Yuda</h4>
                     <p class="font-semibold text-[#5D5A6F]">Businessman</p>
-                 </div>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Review -->
+                <div class="absolute p-10 top-40 lg:-left-24 bg-white rounded-lg lg:w-4/5 z-10">
+                    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p class="text-secondary">We are providing the best and suitable home insurance services for the
+                        people who are interested to treatment</p>
+                    <h4 class="font-bold text-primary mt-4">Ilham Yuda</h4>
+                    <p class="font-semibold text-[#5D5A6F]">Businessman</p>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
+
+                <!-- Review -->
+                <div class="relative p-10 bg-white rounded-lg lg:w-4/5 opacity-40">
+                    <img class="absolute -left-5 -top-5 border-4 border-white rounded-full bg-white"
+                        src="images/client.png" alt="">
+                    <p class="text-secondary">We are providing the best and suitable home insurance services for the
+                        people who are interested to treatment</p>
+                    <h4 class="font-bold text-primary mt-4">Ilham Yuda</h4>
+                    <p class="font-semibold text-[#5D5A6F]">Businessman</p>
+                    <div class="flex justify-end">
+                        <img src="images/circles.png" alt="">
+                    </div>
+                </div>
             </div>
-         </section>
+        </section>
 
     </main>
 
