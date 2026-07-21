@@ -25,6 +25,7 @@
             --color-secondary: #777777;
             --color-gradient-start: #FF0000;
             --color-gradient-end: #FF8938;
+            --color-news-border: #D2D2D2;
         }
     </style>
 
@@ -152,7 +153,8 @@
         </section>
 
         <!-- Super client -->
-        <section class="px-10 py-16 lg:p-24 flex flex-col lg:flex-row bg-linear-[-90deg] from-gradient-start to-gradient-end rounded-xl gap-9">
+        <section
+            class="px-10 py-16 lg:p-24 flex flex-col lg:flex-row bg-linear-[-90deg] from-gradient-start to-gradient-end rounded-xl gap-9">
             <div class="flex flex-1 items-center">
                 <div class="">
                     <h3 class="text-3xl lg:text-5xl font-extrabold text-white mb-5">Meet Our Super<br>Clients</h3>
@@ -205,6 +207,63 @@
                 </div>
             </div>
         </section>
+
+        <!-- News & Events -->
+        <section class="text-center px-4 lg:px-0 py-12 lg:py-24">
+            <h2 class="text-3xl lg:text-5xl font-extrabold text-primary">News & Events</h2>
+            <p class="text-secondary w-full md:w-2/3 mx-auto mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-14 gap-6">
+
+                <!-- News card one -->
+                <div class="card bg-white border border-news-border rounded-lg">
+                    <figure class="pt-6 px-0">
+                        <img src="images/news-1.png" alt="Tea" />
+                    </figure>
+                    <div class="card-body text-start">
+                        <p class="text-start text-secondary">Feb 05, 2027</p>
+                        <h2 class="text-primary font-extrabold text-xl">Collecting 8 points for discount</h2>
+                        <p class="text-secondary">There are many variations of passages of Lorem Ipsum available.</p>
+                        <div class="card-actions">
+                            <button class="text-primary font-bold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News card two -->
+                <div class="card bg-white border border-news-border rounded-lg">
+                    <figure class="pt-6 px-0">
+                        <img src="images/news-2.png" alt="Tea" />
+                    </figure>
+                    <div class="card-body text-start">
+                        <p class="text-start text-secondary">Feb 05, 2027</p>
+                        <h2 class="text-primary font-extrabold text-xl">Collecting 8 points for discount</h2>
+                        <p class="text-secondary">There are many variations of passages of Lorem Ipsum available.</p>
+                        <div class="card-actions">
+                            <button class="text-primary font-bold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News card three -->
+                <div class="card bg-white border border-news-border rounded-lg">
+                    <figure class="pt-6 px-0">
+                        <img src="images/news-3.png" alt="Tea" />
+                    </figure>
+                    <div class="card-body text-start">
+                        <p class="text-start text-secondary">Feb 05, 2027</p>
+                        <h2 class="text-primary font-extrabold text-xl">Collecting 8 points for discount</h2>
+                        <p class="text-secondary">There are many variations of passages of Lorem Ipsum available.</p>
+                        <div class="card-actions">
+                            <button class="text-primary font-bold">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
 
     </main>
 
